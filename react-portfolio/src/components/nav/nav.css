@@ -20,7 +20,7 @@ nav a {
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 nav a:hover {
@@ -30,4 +30,31 @@ nav a:hover {
 nav a.active {
     background: var(--color-bg);
     color: var(--color-white)
+}
+
+#tooltip {
+    position: relative;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+#tooltip:hover {
+    text-decoration: underline;
+}
+
+.tooltip-box {
+    display: none;
+    font-weight: 300;
+    position: absolute;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    left: 0;
+    right: 0;
+    bottom: 2.1rem;
+}
+
+#tooltip:hover .tooltip-box {
+    display: inline;
 }
