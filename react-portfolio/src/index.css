@@ -103,6 +103,7 @@ a:hover {
 }
 
 .btn-primary {
+    font-family: 'Poppins', sans-serif;
     background: var(--color-primary);
     color: var(--color-bg);
 }
@@ -125,8 +126,6 @@ img {
     section {
         margin-top: 4rem;
     }
-
-
 }
 
 /* ========== SMALL DEVICES ========== */
@@ -139,5 +138,4 @@ img {
     section > h2 {
         margin-bottom: 2rem;
     }
-
 }

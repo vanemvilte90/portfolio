@@ -1,8 +1,8 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/me-about.jpg';
-import {FaAward} from 'react-icons/fa';
-import {FiUsers} from 'react-icons/fi';
+import {SlGraduation} from 'react-icons/sl';
+import {TbCertificate} from 'react-icons/tb';
 import {VscFolderLibrary} from 'react-icons/vsc';
 
 const About = () => {
@@ -19,28 +19,24 @@ const About = () => {
           </div>
 
           <div className="about__content">
+              
             <div className="about__cards">    
               <article className='about__card'>
-                <FaAward className='about__icon'/>
-                <h5>Exerience</h5>
-                <small>3+ Years Working</small>
+                <TbCertificate className='about__icon'/>
+                <h5>Certified Tech Developer</h5>
+                <small>2021-2023</small>
               </article>
 
               <article className='about__card'>
-                <FiUsers className='about__icon'/>
-                <h5>Clients</h5>
-                <small>200+ Worldwide</small>
+                <SlGraduation className='about__icon'/>
+                <h5>Técnica Superior en Informática</h5>
+                <small>2012-2015</small>
               </article>
 
-              <article className='about__card'>
-                <VscFolderLibrary className='about__icon'/>
-                <h5>Projects</h5>
-                <small>80+ Completed</small>
-              </article>
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, enim. Sapiente sit qui nihil odio possimus quod, necessitatibus eligendi esse, dignissimos illo dolores temporibus aliquam, mollitia nisi incidunt libero soluta?
+              Soy entusiasta de la tecnología, en especial de la programación y el diseño. Siempre he sido curiosa y autodidacta. Me gusta aprender y considero que para dar más valor al conocimiento lo mejor es compartirlo. Me caracterizo por mi adaptabilidad, trabajo en equipo y pensamiento creativo. Quiero seguir desarrollándome y aprendiendo constantemente para poder adquirir más experiencia.
             </p>
 
             <a href='#contact' className='btn btn-primary'>Contacto</a>

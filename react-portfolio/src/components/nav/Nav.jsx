@@ -3,7 +3,7 @@ import './nav.css';
 import {AiOutlineHome} from 'react-icons/ai';
 import {AiOutlineUser} from 'react-icons/ai';
 import {BsListUl} from 'react-icons/bs';
-import {BsBagFill} from 'react-icons/bs';
+import {MdWorkOutline} from 'react-icons/md';
 import {BiMessageSquareDetail} from 'react-icons/bi';
 import { useState } from 'react';
  
@@ -18,7 +18,7 @@ const Nav = () => {
       </a>
         
       {/* ====== ABOUT ====== */}  
-      <a id="tooltip" clasName href='#about' onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active': ''}><AiOutlineUser/>
+      <a id="tooltip" href='#about' onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active': ''}><AiOutlineUser/>
         {/* <span className='tooltip-box'>About</span> */}
       </a>
       
@@ -28,7 +28,7 @@ const Nav = () => {
       </a>
 
       {/* ====== SERVICES ====== */}
-      <a id="tooltip" href='#services' onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active': ''}><BsBagFill/>
+      <a id="tooltip" href='#portfolio' onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active': ''}><MdWorkOutline/>
         {/* <span className='tooltip-box'></span> */}
       </a>
       
