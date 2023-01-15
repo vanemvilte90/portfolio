@@ -1,6 +1,6 @@
 header {
-    height: 116vh;
-    padding-top: 5rem;
+    height: 100vh;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -20,6 +20,7 @@ header {
 }
 
 /* ==========  H E A D E R   S O C I A L S  ========== */
+
 .header__socials {
     display: flex;
     flex-direction: column;
@@ -45,26 +46,15 @@ header {
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 3rem;
+    margin-top: 5rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-    
-}
-
-
-/* ==========  S C R O L L   D O W N  ========== */
-.scroll__down {
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;   
 }
 
 
 /* =============  M E D I A   Q U E R I E S  ============= */
+
 
 /* ========== MEDIUM DEVICES ========== */
 
@@ -74,13 +64,14 @@ header {
     }
 
     .header__socials {
-        bottom: 5rem;
+        bottom: 7rem;
     }
 }
 
 /* ========== SMALL DEVICES ========== */
 
 @media screen and (max-width: 600px) {
+  
     .header__socials,
     .scroll__down {
         display: none;
