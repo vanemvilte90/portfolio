@@ -53,14 +53,6 @@ const Experience = () => {
                 </div>
               </article>
 
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Tailwind</h4>
-                  <small className='text-light'>Básico</small>
-                </div>
-              </article>
-
             </div>
         </div>
         {/* ========== END OF FRONTEND ========== */}
@@ -92,6 +84,14 @@ const Experience = () => {
                 </div>
               </article>
 
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Servlets</h4>
+                  <small className='text-light'>Básico</small>
+                </div>
+              </article>
+              
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div>

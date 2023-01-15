@@ -20,11 +20,9 @@ hr {
 }
 
 .footer__logo {
-    
     flex-direction: column;
-    width: 4rem;
+    width: 3rem;
     margin: 3rem 0 0 5rem ;
-    
 }
 
 .permalinks {
@@ -69,6 +67,11 @@ hr {
 
 /* =============  M E D I A   Q U E R I E S  ============= */
 
+/* ========== LARGE DEVICES ========== */
+@media screen and (min-width: 1025) {
+    
+}
+
 /* ========== SMALL DEVICES ========== */
 
 @media screen and (max-width: 600px) {
@@ -77,7 +80,17 @@ hr {
         gap: 1.5rem;
     }
 
-    .footer__socials {
-        margin-bottom: 6rem;
+
+    .footer__logo {
+        
+        width: 2rem;
+        margin: 3rem 0 0 2rem ;
+    }
+
+    .footer__container {
+        margin: 2.5rem 2rem 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
     }
 }

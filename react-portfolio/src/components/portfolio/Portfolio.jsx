@@ -1,19 +1,16 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
+import IMG1 from '../../assets/portfolio1.png';
 import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG3 from '../../assets/portfolio3.png';
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title:'File Manager App Concept',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20365108-File-Manager-App-Concept'
+    title:'Juego del Ahorcado',
+    github: 'https://github.com/vanemvilte90/challenge1-one',
+    demo: 'https://vanemvilte90.github.io/challenge1-one/'
   },
   {
     id: 2,
@@ -29,27 +26,6 @@ const data = [
     github: 'https://github.com',
     demo: 'https://dribbble.com/shots/20365108-File-Manager-App-Concept'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title:'File Manager App Concept',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20365108-File-Manager-App-Concept'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title:'File Manager App Concept',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20365108-File-Manager-App-Concept'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title:'File Manager App Concept',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20365108-File-Manager-App-Concept'
-  }
 ]
 
 
