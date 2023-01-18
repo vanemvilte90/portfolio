@@ -10,6 +10,9 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
+
+      {/* ========== FRONTEND ========== */}
+
           <h3>Frontend Development</h3>
             <div className='experience__content'>
               
@@ -40,7 +43,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>React</h4>
+                  <h4>React JS</h4>
                   <small className='text-light'>Intermedio</small>
                 </div>
               </article>
@@ -55,11 +58,16 @@ const Experience = () => {
 
             </div>
         </div>
+
         {/* ========== END OF FRONTEND ========== */}
+        
+
+        {/* ========== BACKEND ========== */}
 
         <div className="experience__backend">
         <h3>Backend Development</h3>
         <div className='experience__content'>
+
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
@@ -83,14 +91,6 @@ const Experience = () => {
                   <small className='text-light'>Intermedio</small>
                 </div>
               </article>
-
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Servlets</h4>
-                  <small className='text-light'>Básico</small>
-                </div>
-              </article>
               
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
@@ -108,11 +108,20 @@ const Experience = () => {
                 </div>
               </article>
 
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Postman</h4>
+                  <small className='text-light'>Intermedio</small>
+                </div>
+              </article>
+        {/* ========== END OF BACKEND ========== */}
+
             </div>
         </div>
         </div>
     </section>
-  )
+  );
 }
 
-export default Experience
+export default Experience;

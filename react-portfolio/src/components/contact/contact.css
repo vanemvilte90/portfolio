@@ -1,3 +1,7 @@
+#contact {
+    padding-top: 5rem;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -42,6 +46,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    align-items: center;
 }
 
 input, textarea {
@@ -69,7 +74,11 @@ input, textarea {
 
 /* ========== SMALL DEVICES ========== */
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
+    #contact {
+        padding-top: 1rem;
+    }
+
     .container.contact__container {
         width: var(--container-width-sm);
     }

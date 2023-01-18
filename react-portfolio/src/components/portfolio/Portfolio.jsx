@@ -49,12 +49,12 @@ const Portfolio = () => {
                     <a href={demo} target="_blank" className='btn btn-primary'>Live Demo</a>
                   </div>
               </article> 
-            )
+            );
           })
         }
       </div>
     </section>
-  )
+  );
 }
 
 export default Portfolio;

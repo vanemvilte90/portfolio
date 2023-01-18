@@ -1,13 +1,13 @@
-header {
-    height: 100vh;
-    padding-top: 4rem;
-    overflow: hidden;
+.header__container {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    text-align: center;
+    gap: 10%;
+    padding-top: 3.5rem;
 }
 
-.header__container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+.header__info {
+    margin-top: 4.5rem;
 }
 
 /* ==========  C T A  ========== */
@@ -15,21 +15,19 @@ header {
 .cta {
     margin-top: 2rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
     justify-content: center;
 }
 
 /* ==========  H E A D E R   S O C I A L S  ========== */
 
 .header__socials {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+    flex-direction: row;
     align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 4rem;
-    font-size: 1.3rem;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .header__socials::after {
@@ -41,40 +39,51 @@ header {
 
 /* ==========  M E  ========== */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 5rem;
-    border-radius: 12rem 12rem 0 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+.me__image {
+    aspect-ratio: 1/1;
+    position: relative;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;   
+    border-radius: 50%;
+    background: linear-gradient(var(--color-primary), transparent);
+    padding: 3rem 1.5rem 1.5rem 1.5rem;   
 }
 
 
 /* =============  M E D I A   Q U E R I E S  ============= */
 
-
 /* ========== MEDIUM DEVICES ========== */
 
 @media screen and (max-width: 1024px) {
-    header {
-        height: 80vh;
-    }
-
-    .header__socials {
-        bottom: 7rem;
-    }
+    .header__container {
+        padding-top: 1rem;
+        grid-template-columns: 1fr;
+        gap: 0;
+     }  
+     
+     .me {
+        width: 40%;
+        margin: 2rem auto 1rem;
+     }  
 }
 
 /* ========== SMALL DEVICES ========== */
 
-@media screen and (max-width: 600px) {
-  
-    .header__socials,
-    .scroll__down {
-        display: none;
+@media screen and (max-width: 600px){
+     .header__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding-top: 3rem;
+     }  
+     
+    .me {
+        width: 65%;
+        margin: 2rem auto 0;    
     }
-
 }

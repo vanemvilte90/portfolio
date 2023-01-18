@@ -1,7 +1,7 @@
 import React from 'react';
 import {BsLinkedin} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa';
-import {FiMail} from 'react-icons/fi'
+import {FiMail} from 'react-icons/fi';
 
 const HeaderSocials = () => {
   return (
@@ -10,7 +10,7 @@ const HeaderSocials = () => {
         <a href="https://github.com/vanemvilte90" target="_blank"><FaGithub/></a>
         <a href="mailto:vanemvilte90@gmail.com" target="_blank"><FiMail/></a>
     </div>
-  )
+  );
 }
 
-export default HeaderSocials
+export default HeaderSocials;

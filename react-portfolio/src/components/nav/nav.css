@@ -1,17 +1,24 @@
-nav {
-    background: rgba(0, 0, 0, 0.3);
+.nav__items {
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.95rem;
+    padding: 0.1rem 1.7rem;
+    background: rgba(0, 0, 0, 0.2);
     width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
     position: fixed;
+    border-radius: 1.5rem;
+    width: 98%;
     left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
+    transform: translateX(-50%); 
     gap: 0.8rem;
-    border-radius: 3rem;
     backdrop-filter: blur(15px);
+    z-index: 2;
+}
+
+.img__nav {
+    width: 2rem;
+    margin-left: 1.5rem;
 }
 
 nav a {
@@ -19,42 +26,18 @@ nav a {
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: var(--color-primary);
     font-size: 1.1em;
 }
 
-nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
+.links__nav {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: end;
 }
+
 
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg)
-}
-
-#tooltip {
-    position: relative;
-    text-decoration: none;
-    color: var(--color-white);
-}
-
-#tooltip:hover {
-    text-decoration: underline;
-}
-
-.tooltip-box {
-    display: none;
-    font-weight: 300;
-    position: absolute;
-    line-height: 0.5rem;
-    text-align: center;
-    color: #fff;
-    font-size: 11px;
-    left: 0;
-    right: 0;
-    bottom: 2.1rem;
-}
-
-#tooltip:hover .tooltip-box {
-    display: inline;
 }
