@@ -9,7 +9,7 @@ function BurgerButton(props){
             <span></span>
             <span></span>
         </div>
-    )
+    );
 }
 
 export default BurgerButton;

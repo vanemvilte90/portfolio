@@ -36,7 +36,6 @@ nav a {
     justify-content: end;
 }
 
-
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg)
@@ -69,7 +68,6 @@ nav a.active {
     margin-left: -0.8rem;
   }
 
-  
   .links__container.active {
     width: 100%;
     display: block;
@@ -84,13 +82,12 @@ nav a.active {
     height: 53vh;
     z-index: -1;
     transition: width 0.3s ease-in-out;
-      transition-delay: 0.1s;
+    transition-delay: 0.1s;
   }
   
   .link__button {
     display: block;
     padding: 1rem;
-    /* transition: all 0.2s ease-out; */
   }
   
 }

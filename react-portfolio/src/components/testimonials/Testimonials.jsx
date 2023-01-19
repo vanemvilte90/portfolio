@@ -36,7 +36,6 @@ const data = [
     name: 'Nana Ama McBrown',
     review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum suscipit at doloribus nulla id rerum? Aspernatur perferendis perspiciatis quidem esse quaerat molestias nobis dicta nam illo, excepturi dolore illum?'
   },
-
 ]
 
 
@@ -62,13 +61,13 @@ const Testimonials = () => {
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{review}</small>
               </SwiperSlide>
-            )
+            );
 
           })
         }
       </Swiper>
     </section>
-  )
+  );
 }
 
 export default Testimonials;

@@ -55,18 +55,6 @@
 
 /* =============  M E D I A   Q U E R I E S  ============= */
 
-/* ========== LARGE DEVICES ========== */
-
-
-
-/* ========== MEDIUM DEVICES ========== */
-
-@media screen and (max-width: 1024px) {
-
-
-}
-
-
 /* ========== SMALL DEVICES ========== */
 
 @media screen and (max-width: 600px) {
@@ -76,7 +64,6 @@
     }
 
     .service__list-icon {
-        font-size: 1rem;
-        
+        font-size: 1rem;        
     }
 }

@@ -51,6 +51,7 @@
 
 @media screen and (max-width: 1024px) {
     .experience__container {
+        width: var(--container-width-sm);
         grid-template-columns: 1fr;
     }
 
@@ -63,8 +64,6 @@
     .experience__content {
         padding: 0 1rem;
     }
-
-    
 }
 
 
@@ -72,7 +71,7 @@
 
 @media screen and (max-width: 600px) {
     #experience {
-        padding-top: 0;
+        padding-top: 1rem;        
     }
 
     .experience__container {
@@ -81,10 +80,14 @@
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
+        padding: 2rem 0.5rem;
     }
 
-    .experience__backend, .experience__frontend {
-        padding: 0 0.3rem;
+    .experience__details h4 {
+        font-size: 0.85rem;
+    }
+
+    .text-light {
+        font-size: 0.8rem;
     }
 }

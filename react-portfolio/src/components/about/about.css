@@ -81,7 +81,6 @@
 /* ========== MEDIUM DEVICES ========== */
 
 @media screen and (max-width: 1024px) {
-
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -95,7 +94,6 @@
         font-size: 0.9rem;
         margin: 1.7rem 0.5rem;
     }
- 
 }
 
 
