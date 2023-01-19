@@ -63,6 +63,8 @@
     .experience__content {
         padding: 0 1rem;
     }
+
+    
 }
 
 
@@ -80,5 +82,9 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience__backend, .experience__frontend {
+        padding: 0 0.3rem;
     }
 }
