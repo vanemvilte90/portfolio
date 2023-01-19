@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 600px) {
     #portfolio {
-        padding-top: 1rem;
+        padding-top: 0;
     }
 
     .portfolio__container {

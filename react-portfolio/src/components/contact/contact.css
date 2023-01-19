@@ -76,7 +76,7 @@ input, textarea {
 
 @media screen and (max-width: 600px) {
     #contact {
-        padding-top: 1rem;
+        padding-top: 0;
     }
 
     .container.contact__container {

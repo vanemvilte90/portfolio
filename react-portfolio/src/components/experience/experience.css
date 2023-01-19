@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 600px) {
     #experience {
-        padding-top: 1rem;
+        padding-top: 0;
     }
 
     .experience__container {

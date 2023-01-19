@@ -1,4 +1,4 @@
-.nav__items {
+nav {
     justify-content: space-between;
     display: inline-flex;
     align-items: center;
@@ -17,8 +17,8 @@
 }
 
 .img__nav {
-    width: 2rem;
-    margin-left: 1.5rem;
+    width: 2.5rem;
+    margin-left: 1rem;
 }
 
 nav a {
@@ -30,7 +30,7 @@ nav a {
     font-size: 1.1em;
 }
 
-.links__nav {
+.links__container {
     display: grid;
     grid-template-columns: repeat(6, auto);
     justify-content: end;
@@ -40,4 +40,57 @@ nav a {
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg)
+}
+
+
+/* =============  M E D I A   Q U E R I E S  ============= */
+
+@media screen and (min-width: 769px) {
+  .burger__nav {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .links__container {
+    position: absolute;
+    top: -700px;
+    left: -2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1.5rem;
+    z-index: 0;
+  }
+
+  .img__nav {
+    width: 2rem;
+    margin-left: -0.8rem;
+  }
+
+  
+  .links__container.active {
+    width: 100%;
+    display: block;
+    background: var(--color-bg);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 53vh;
+    z-index: -1;
+    transition: width 0.3s ease-in-out;
+      transition-delay: 0.1s;
+  }
+  
+  .link__button {
+    display: block;
+    padding: 1rem;
+    /* transition: all 0.2s ease-out; */
+  }
+  
 }

@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 600px) {
     #about {
-        padding-top: 1rem;
+        padding-top: 0;
     }
     
     .about__me {
